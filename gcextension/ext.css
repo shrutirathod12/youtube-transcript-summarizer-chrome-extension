@@ -1,0 +1,62 @@
+/* Reset default margin and padding */
+body, h1, input, button, textarea {
+margin: 0;
+padding: 0;
+}
+
+/* Set body font and background color */
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+}
+
+/* Container styles */
+.container {
+width: 300px; /* Adjust width as needed */
+margin: 20px auto;
+padding: 20px;
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h1 {
+text-align: center;
+margin-bottom: 20px;
+}
+
+/* Input field styles */
+input[type="text"] {
+width: calc(100% - 20px); /* Adjust width as needed */
+padding: 10px;
+margin-bottom: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+/* Button styles */
+button {
+width: 100%;
+padding: 10px;
+background-color: #d72626; /* Change button color */
+color: #fff;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #0056b3; /* Change button color on hover */
+}
+
+/* Textarea styles */
+textarea {
+width: calc(100% - 20px); /* Adjust width as needed */
+height: 150px; /* Adjust height as needed */
+padding: 10px;
+margin-top: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+resize: none; /* Disable textarea resizing */
+}
